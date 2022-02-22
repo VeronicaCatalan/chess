@@ -59,7 +59,9 @@ public class Board {
     public String toString() {
         String s="";
         String letterStr="";
+/*
 
+ */
         for(int i = 7; i >= 0; i--) {
             s = s + (i + 1) + " ";
             for(int j = 0; j < 8; j++) {
